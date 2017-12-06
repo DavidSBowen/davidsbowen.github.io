@@ -1,0 +1,16 @@
+.mainContainer {
+  display:grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+  /*justify-items: center;*/
+  /*align-items: center;*/
+  grid-gap: 3px;
+  align-items:stretch;
+}
+
+.item {
+  border: 1px solid black;
+  /*height: 100%;*/
+  /*width: 100%;*/
+  /*text-align: center;*/
+}
