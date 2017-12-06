@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link rel="shortcut icon" type="image/x-icon" href="images/354-favicon.ico" />
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <!-- Header and Links Nav -->
+  <header id=davidbowen-header>
+    <div class="main-header">
+      <div class="header-links-wrap">
+        <nav class="header-links">
+          <a href="index.html">Home</a>
+          <a href="skills.html">Skills</a>
+          <a href="about.html">Learn About David</a>
+          <a href="contactform.html" id="contact-link">Contact Me</a>
+        </nav>
+        <nav class="header-links header-links-two">
+          <p>- This page -</p>
+          <a href="#">Top of Page</a>
+          <a href="#contact-section">Contact Me</a>
+          <a href="#social-footer">Social Links</a>
+          <p>- This page -</p>
+        </nav>
+      </div>
+      <div class="content-wrap contact-header-wrap">
+        <div class="col-span-header">
+          <h1>David Bowen</h1>
+          <h2>Full Stack JavaScript Web Developer</h2>
+          <p>I like to sit in front of the computer and make things look nice. I also like to make things work and do stuff.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Skills -->
+  <section class="workexp contact" id="contact-section">
+    <div class="content-wrap clear-float">
+      <h2>Contact Me</h2>
+      <div class="clear-float">
+        <div class="col-left">
+          <h3>Contact Form:</h3>
+        </div>
+        <div class="col-right">
+          <p class="beg-paragraph">
+            <h5 class="skills-title">Web Development</h5> HTML5, CSS3 (grid and flexbox), JavaScript, JQuery, Bootstrap, Sass, AJAX, JSON, ReactJS, AngularJS, NodeJS, ExpressJS, ASP.NET, SharePoint
+          </p>
+          <form action="/my-handling-form-page" method="post">
+            <div>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="user_name">
+            </div>
+            <div>
+              <label for="mail">E-mail:</label>
+              <input type="email" id="mail" name="user_mail">
+            </div>
+            <div>
+              <label for="msg">Message:</label>
+              <textarea id="msg" name="user_message"></textarea>
+            </div>
+            <div class="button">
+              <button type="submit">Send your message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="main-footer" id="social-footer">
+      <div class="content-wrap footer-wrap">
+        <h2>Let's Keep in Touch!</h2>
+
+        <!-- Social media and contact links. Add or remove any networks. -->
+        <div class="footer-links">
+          <a href="mailto:bowen.davidsamuel@gmail.com">bowen.davidsamuel@gmail.com</a>
+          <!-- <a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a> -->
+          <a href="https://www.linkedin.com/in/davidsamuelbowen/" target="_blank">LinkedIn</a>
+          <a href="https://www.instagram.com/dbowen328/" target="_blank">Instagram</a>
+          <a href="https://www.facebook.com/davidsprofile8" target="_blank">Facebook</a>
+          <a href="https://twitter.com/DummDr" target="_blank">Twitter</a>
+          <a href="https://github.com/lessthanjake328" target="_blank">Github</a>
+        </div>
+        <div class="footer-links footer-downloads">
+          <a href="files/David Bowen Resume 2017-2.docx" id="contact-link">Download Resume (.docx)</a>
+          <a href="files/David Bowen Resume 2017-2.pages" id="contact-link">Download Resume (.pages)</a>
+        </div>
+
+        <p>Copyright 2017 by David Bowen</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
