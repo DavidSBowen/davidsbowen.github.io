@@ -1,41 +1,86 @@
+/**/
+
+/* HTML Body Container */
+
+/**/
+
 .mainContainer {
-  display:grid;
+  display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: auto:;
   /*justify-items: center;*/
   /*align-items: center;*/
   grid-gap: 3px;
-  align-items:stretch;
+  /*align-items: stretch;*/
 }
 
+/**/
+
+/* Header Grid Section */
+
+/**/
+
 .gridHeader {
-  border: 1px solid red;
   background-color: #cfc;
-  /*grid-row: 1 / 3;*/
+  grid-row: 1 / 2;
   grid-column: 1 /13;
+  text-align: center;
 }
+
+/**/
+
+/* Body Grid Section */
+
+/**/
 
 .gridBodyLeft {
   background-color: #fcc;
-  border: 1px solid black;
   grid-column: 1 / 10;
-  display:flex;
-  flex-direction: row;
 }
 
 .gridBodyRight {
   background-color: #ccf;
-  border: 1px solid black;
   grid-column: 10 / 13;
 }
 
-.gridBodyLeft,
-.gridBodyRight {
+.gridBodyLeft, .gridBodyRight {
   grid-row: 2/8;
 }
 
+/**/
+
+/* Footer Grid Section */
+
+/**/
+
 .gridFooter {
   background-color: #ccc;
-  border: 1px solid black;
   grid-column: 1 / 13;
+  text-align: center;
+}
+
+/**/
+
+/* Left Body Flex */
+
+/**/
+
+.bodyLeftFlex {
+  display: flex;
+  /*You can do this instead of the following 2 rows*/
+  /*flex-flow: row || wrap;*/
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-evenly;
+}
+
+/**/
+
+/* Left Body Flex CONTENT */
+
+/**/
+
+.lbfItem {
+  margin: 2.5% 0;
 }
