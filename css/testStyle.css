@@ -21,10 +21,10 @@
 /**/
 
 .gridHeader {
-  background-color: #cfc;
   grid-row: 1 / 2;
   grid-column: 1 /13;
   text-align: center;
+  border-bottom: 1px solid black;
 }
 
 /**/
@@ -57,6 +57,18 @@
 
 /**/
 
+/* Header Flex */
+
+/**/
+
+.headerFlex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+/**/
+
 /* Body Flex */
 
 /**/
@@ -65,7 +77,7 @@
   display: flex;
   flex-flow: row wrap;
   align-content: flex-start;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .bodyRightFlex {
@@ -76,12 +88,27 @@
 
 /**/
 
-/* Left Body Flex CONTENT */
+/* Flex CONTENT */
 
 /**/
 
 .lbfItem {
-  margin: 2.5% auto;
+  margin: 2.5% 0;
+}
+
+.hfItem {
+  padding: .5% 5%;
+  margin: .5% 2.5%;
+  color: #00c;
+  background-color: #c96;
+  border-radius: 15%;
+  text-decoration: none;
+}
+
+.hfItem:hover {
+  color: #c96;
+  background-color: #00c;
+  transition: 0.2s;
 }
 
 /**/
