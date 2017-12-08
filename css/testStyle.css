@@ -1,83 +1,113 @@
+/* Box Model Fix */
+
+html {
+  box-sizing: border-box;
+  /*font-size: 3vw;*/
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/** {
+  border: 1px solid hsl(0, 0%, 100%);
+}*/
+
 /**/
 
-/* HTML Body Container */
+/* Global */
 
 /**/
+
+html {
+  color: hsl(38, 100%, 3%);
+  background-color: hsl(0, 0%, 74%);
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
 
 .mainContainer {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: auto:;
-  /*justify-items: center;*/
-  /*align-items: center;*/
+  grid-template-rows: auto;
   grid-gap: 3px;
-  /*align-items: stretch;*/
 }
 
 /**/
 
-/* Header Grid Section */
+/* Header */
 
 /**/
 
 .gridHeader {
   grid-row: 1 / 2;
   grid-column: 1 /13;
-  text-align: center;
-  border-bottom: 1px solid black;
+  margin: 0 0 10% 0;
+  padding: 7.5% 0;
+  background-color: hsl(38, 100%, 3%);
+}
+
+.headerFlex {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content:center;
+}
+
+.hfItem {
+  padding: .5% 5%;
+  margin: .5% 2.5%;
+  color: hsl(167, 26%, 72%);
+  font-weight: 700;
+  font-size: 125%;
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+
+.hfItem:hover {
+  color: hsl(19, 49%, 55%);
+  border: 1px solid hsl(19, 49%, 55%);
+  transition: 0.4s;
 }
 
 /**/
 
-/* Body Grid Section */
+/* Left Body */
 
 /**/
 
 .gridBodyLeft {
-  background-color: #fcc;
-  grid-column: 1 / 13;
-}
-
-.gridBodyRight {
-  background-color: #ccf;
-  grid-column: 1 / 13;
-}
-
-/**/
-
-/* Footer Grid Section */
-
-/**/
-
-.gridFooter {
-  background-color: #ccc;
   grid-column: 1 / 13;
   text-align: center;
+  margin: 0 0 10% 0;
 }
-
-/**/
-
-/* Header Flex */
-
-/**/
-
-.headerFlex {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-}
-
-/**/
-
-/* Body Flex */
-
-/**/
 
 .bodyLeftFlex {
   display: flex;
   flex-flow: row wrap;
   align-content: flex-start;
   justify-content: space-evenly;
+}
+
+.lbfItem {
+  margin: 2.5% 0;
+}
+
+/**/
+
+/* Right Body */
+
+/**/
+
+.gridBodyRight {
+  grid-column: 1 / 13;
+  margin: 0 10% 10%;
 }
 
 .bodyRightFlex {
@@ -88,27 +118,14 @@
 
 /**/
 
-/* Flex CONTENT */
+/* Footer */
 
 /**/
 
-.lbfItem {
-  margin: 2.5% 0;
-}
-
-.hfItem {
-  padding: .5% 5%;
-  margin: .5% 2.5%;
-  color: #00c;
-  background-color: #c96;
-  border-radius: 15%;
-  text-decoration: none;
-}
-
-.hfItem:hover {
-  color: #c96;
-  background-color: #00c;
-  transition: 0.2s;
+.gridFooter {
+  grid-column: 1 / 13;
+  text-align: center;
+  margin: 0;
 }
 
 /**/

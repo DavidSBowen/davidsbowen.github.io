@@ -1,0 +1,29 @@
+#100B00 Smoky Black
+rgba(17, 11, 0, 1)
+hsl(38, 100%, 3%)
+hsv(39, 100%, 6%)
+
+#C57B57 Deer (Orange)
+rgba(198, 123, 87, 1)
+hsl(19, 49%, 55%)
+hsv(19, 56%, 77%)
+
+#BFBFBF Silver
+rgba(191, 191, 191, 1)
+hsl(0, 0%, 74%)
+hsv(0, 0%, 74%)
+
+#879A81 Artichoke
+rgba(136, 154, 130, 1)
+hsl(104, 10%, 55%)
+hsv(105, 15%, 60%)
+
+#A5CBC3 Pastel Blue
+rgba(165, 203, 195, 1)
+hsl(167, 26%, 72%)
+hsv(167, 18%, 79%)
+
+#EFFFA8 Pale Goldenrod
+rgba(239, 255, 168, 1)
+hsl(71, 100%, 82%)
+hsv(71, 34%, 100%)
