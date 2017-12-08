@@ -35,16 +35,12 @@
 
 .gridBodyLeft {
   background-color: #fcc;
-  grid-column: 1 / 10;
+  grid-column: 1 / 13;
 }
 
 .gridBodyRight {
   background-color: #ccf;
-  grid-column: 10 / 13;
-}
-
-.gridBodyLeft, .gridBodyRight {
-  grid-row: 2/8;
+  grid-column: 1 / 13;
 }
 
 /**/
@@ -61,7 +57,7 @@
 
 /**/
 
-/* Left Body Flex */
+/* Body Flex */
 
 /**/
 
@@ -72,7 +68,13 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-content: flex-start;
-  justify-content: space-evenly;
+  justify-content: space-around;
+}
+
+.bodyRightFlex {
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: center;
 }
 
 /**/
@@ -82,5 +84,26 @@
 /**/
 
 .lbfItem {
-  margin: 2.5% 0;
+  margin: 2.5% auto;
+}
+
+/**/
+
+/* Media Queries */
+
+/**/
+
+@media (min-width: 850px) {
+  .gridBodyLeft {
+    grid-column: 1 / 10;
+  }
+  .gridBodyRight {
+    grid-column: 10 / 13;
+  }
+  .gridBodyLeft, .gridBodyRight {
+    grid-row-start: 2;
+  }
+  .bodyRightFlex {
+    text-align: left;
+  }
 }
