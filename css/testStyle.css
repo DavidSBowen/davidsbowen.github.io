@@ -63,10 +63,7 @@
 
 .bodyLeftFlex {
   display: flex;
-  /*You can do this instead of the following 2 rows*/
-  /*flex-flow: row || wrap;*/
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   align-content: flex-start;
   justify-content: space-around;
 }
