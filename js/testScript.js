@@ -1,4 +1,5 @@
 (function(){
+'use strict';
 
   var num = 0;
   var bodyRightHeader = document.getElementById('bodyRightHeader');
