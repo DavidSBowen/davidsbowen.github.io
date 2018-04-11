@@ -1,0 +1,40 @@
+a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #EDF2F4;
+}
+
+.flex-sites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.flex-item {
+    padding: 5px;
+    flex-basis: 15em;
+    background: #2B2D42;
+    border-radius: 5px;
+    /* flex-grow: 0; */
+    /* flex-shrink: 0; */
+    text-align: center;
+    margin: 5px;
+    transition: .25s;
+    border: 2px solid #2B2D42;
+    box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.flex-item:hover {
+    transform: scale(1.1);
+    transition: .5s;
+    border: 2px solid #EDF2F4;
+}
+
+.heroku {
+    color: #D90429;
+}
+
+#warning {
+    color: #D90429;
+}
