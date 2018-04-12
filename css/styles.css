@@ -300,6 +300,10 @@ header p, footer p {
   border-bottom: 1px solid black;
 }
 
+.education .left-border {
+  border-left: 1px solid black;
+}
+
 .education .col-left h3 {
   margin: 10% 0 0 0;
 }
