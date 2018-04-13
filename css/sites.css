@@ -7,7 +7,7 @@ a {
 .flex-sites {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-content: space-around;
 }
 
@@ -19,7 +19,7 @@ a {
     /* flex-grow: 0; */
     /* flex-shrink: 0; */
     text-align: center;
-    margin: 5px;
+    margin: 15px;
     transition: .25s;
     border: 2px solid #2B2D42;
     box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
