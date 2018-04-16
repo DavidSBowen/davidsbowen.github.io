@@ -96,7 +96,7 @@ h2, h3, h4, h5, h6 {
   font-family: sans-serif;
   font-size: 75%;
   text-decoration: none;
-  border-radius: 10%;
+  border-radius: 2px;
   /*box-shadow: 1%;*/
 }
 
@@ -147,7 +147,7 @@ a:focus {}
   font-family: sans-serif;
   font-size: 75%;
   text-decoration: none;
-  border-radius: 10%;
+  border-radius: 2px;
   /*box-shadow: 1%;*/
 }
 
@@ -168,7 +168,7 @@ a:focus {}
 
 .main-header {
   background: #2B2D42;
-  border: .05em black solid;
+  /* border: .05em black solid; */
   border-top: 0;
   margin: 0;
   padding: 0 0 1% 0;
@@ -194,7 +194,7 @@ a:focus {}
 .main-footer {
   background: #2B2D42;
   margin: 0;
-  border: .05em black solid;
+  /* border: .05em black solid; */
   color: #EDF2F4;
   text-align: center;
 }
@@ -233,7 +233,7 @@ header p, footer p {
 
 #david-photo {
   /*margin: 5% 0 0 0;*/
-  border-radius: 50%;
+  border-radius: 50px;
   height: auto;
   width: auto\9;
 }
@@ -244,7 +244,7 @@ header p, footer p {
 .workexp {
   background: #EDF2F4;
   margin: 0;
-  border: .05em black solid;
+  /* border: .05em black solid; */
 }
 
 .workexp h1, .workexp h2, .workexp h3, .workexp h4 {
@@ -284,7 +284,7 @@ header p, footer p {
 .education {
   background: #8D99AE;
   margin: 0;
-  border: .05em black solid;
+  /* border: .05em black solid; */
 }
 
 .education h1, .education h2, .education h3, .education h4 {
@@ -331,7 +331,7 @@ header p, footer p {
 .workexp.skills {
   background: #8D99AE;
   margin: 0;
-  border: .05em black solid;
+  /* border: .05em black solid; */
 }
 
 /* About Me
